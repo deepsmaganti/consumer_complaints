@@ -18,7 +18,7 @@ Steps to run:
 
 To execute the script move to the main directory of the project and run the following in the terminal:
 
-    python3.7 ./src/consumer_complaints.py ./input/complaints.csv ./output/report.csv
+    python3.8 ./src/consumer_complaints.py ./input/complaints.csv ./output/report.csv
 
 Last two arguments should be input and output files, respectively. Two files are generated in the output folder report.csv and error_logfile.txt
 
