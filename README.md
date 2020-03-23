@@ -2,7 +2,9 @@ This GitHub repository contains my solution to the coding challenge for Data Eng
 
 Given a comma separated input file with 18 columns, Expected Output contains 5 columns, e.g.,
 
-"credit reporting, credit repair services, or other personal consumer reports",2019,3,2,67 "credit reporting, credit repair services, or other personal consumer reports",2020,1,1,100 debt collection,2019,1,1,100
+  "credit reporting, credit repair services, or other personal consumer reports",2019,3,2,67 
+  "credit reporting, credit repair services, or other personal consumer reports",2020,1,1,100 
+  debt collection,2019,1,1,100
 
 Summary The consumer_complaints.py script reads the input file per line and creates a dictionary to get the result file containing the following:
 
@@ -16,7 +18,7 @@ Steps to run:
 
 To execute the script move to the main directory of the project and run the following in the terminal:
 
-python3.7 ./src/consumer_complaints.py ./input/complaints.csv ./output/report.csv
+    python3.7 ./src/consumer_complaints.py ./input/complaints.csv ./output/report.csv
 
 Last two arguments should be input and output files, respectively. Two files are generated in the output folder report.csv and error_logfile.txt
 
